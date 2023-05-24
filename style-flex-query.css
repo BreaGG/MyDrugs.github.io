@@ -34,7 +34,7 @@ ul {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
   background-color: black;
 }
@@ -83,7 +83,7 @@ li a {
 
 .picture_panel h2 {
   margin: 0;
-  text-align: center;
+  text-align: top;
   text-transform: uppercase;
 }
 
@@ -215,24 +215,22 @@ input[type="submit"]:hover {
   #logo {
     width: 20%;
   }
-
   ul {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
   }
-
+  
   li {
-    margin-right: 0;
-    float: none;
-    margin-bottom: 10px;
+    margin-right: 20px;
   }
 
   li a {
     padding: 10px 22px;
   }
-
-
   .picture_panel {
     flex-direction: column;
     align-items: center;
@@ -280,15 +278,16 @@ input[type="submit"]:hover {
   }
 
   ul {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
   }
-
+  
   li {
-    margin-right: 0;
-    float: none;
-    margin-bottom: 10px;
+    margin-right: 20px;
   }
 
   li a {
